@@ -891,6 +891,13 @@ ul.contact-address li i {
 }
 /* ===== End contact ===== */
 
+/* ===== Begin map ===== */
+
+#map {
+  width: 100% !important; height: 300px; margin-top: 0px; margin-bottom: 0px;
+}
+
+/* ===== End map ===== */
 
 /* ===== Begin footer ===== */
 .footer-top {
