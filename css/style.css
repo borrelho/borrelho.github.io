@@ -17,7 +17,7 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	color: #f6f3d4;
+	background-image: url(skin/bglaura.jpg);
 }
 body .body {
 	height: 100%;
@@ -33,7 +33,7 @@ body .body {
 }
 .page {
   overflow: hidden;
-  background-color: #f8f8f8;
+  
   padding: 50px 0;
 }
 * {
