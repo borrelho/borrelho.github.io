@@ -145,7 +145,8 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar .container {
-	padding-left: 50px;
+	padding-bottom: 50px;
+    padding-left: 50px;
 	padding-right: 50px;
 }
 
@@ -266,7 +267,6 @@ section {
 	color: #FFF;
 }
 /* ===== End navbar ===== */
-
 
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
@@ -892,7 +892,7 @@ ul.contact-address li i {
 /* ===== End contact ===== */
 
 #map {
-    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
+    width: 100%; height: 300px; margin-top: 0px; margin-bottom: 0px;
 }
 
 
