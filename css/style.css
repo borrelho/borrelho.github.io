@@ -170,16 +170,17 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo1.png);
+	background-image: url(../img/belissima-logo.svg);
+    background-size: contain;
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/logo1.png);
+	background-image: url(../img/belissima-logo.svg);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/logo1.png);
+	background-image: url(../img/belissima-logo.svg);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo1.png);
+	background-image: url(../img/belissima-logo.svg);
 }
 
 /* Navbar links */
