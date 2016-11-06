@@ -170,17 +170,17 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/belissima-logo.svg);
+	background-image: url(../img/belissima-logo-text.svg);
     background-size: contain;
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/belissima-logo.svg);
+	background-image: url(../img/belissima-logo-text.svg);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/belissima-logo.svg);
+	background-image: url(../img/belissima-logo-text.svg);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/belissima-logo.svg);
+	background-image: url(../img/belissima-logo-text.svg);
 }
 
 /* Navbar links */
@@ -291,6 +291,11 @@ section {
 #text-carousel-intro-section .caption p {
 	letter-spacing: 2px;
 	font-size: 16px;
+}
+
+.belissima-logo {
+    width: auto;
+    height: 150px;
 }
 /* End text carousel intro */
 /* ===== End intro ===== */
