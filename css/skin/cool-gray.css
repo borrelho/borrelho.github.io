@@ -5,22 +5,19 @@ a, a:hover, a:focus {
 
 /* === Navbar === */
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
-	color: #a9d6b5;
+	color: #fff;
 }
 .navbar-default .navbar-brand:hover {
-	color: #a9d6b5;
+	color: #fff;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: transparent;
-  background-image: url(renda-original.svg);
-  background-repeat: repeat-x;
-  background-size: 28px 105px;
+  background-color: #363940;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #dc5e5e;
+	color: #a9a9a9;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
-	color: #a9d6b5 !important;
+	color: #fff !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
 	color: #a9a9a9;
@@ -166,8 +163,7 @@ a, a:hover, a:focus {
 
 /* === Price === */
 .prices .panel-default .panel-heading {
-	box-shadow: inset 0px 0px 0px #a9d6b5;
-    background-color: #f6f3d4;
+	box-shadow: inset 0px 4px 0px #363940;
 }
 .prices .price-box-featured .panel-heading {
 	background-color: #363940;
@@ -179,10 +175,8 @@ a, a:hover, a:focus {
 .prices .price-box-featured .price-box-ribbon {
 	color: #363940;
 }
-.list-group-item {
-    padding: 5px;
-    background-color: C0C0C0;
-}
+
+
 
 /* === Contact === */
 #contact-section {

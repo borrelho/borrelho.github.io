@@ -17,7 +17,7 @@ body {
 	position: relative;
 	height: 100%;
 	font-size: 14px;
-	background-image: url(skin/bglaura.jpg);
+	color: #363940;
 }
 body .body {
 	height: 100%;
@@ -33,7 +33,7 @@ body .body {
 }
 .page {
   overflow: hidden;
-  
+  background-color: #fff;
   padding: 50px 0;
 }
 * {
@@ -48,22 +48,21 @@ body .body {
 
 /* Begin Fonts */
 body {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Parisienne', cursive;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 700;
 	margin-bottom: 10px;
 }
 h1 {
-	font-size: 40px;
+	font-size: 36px;
 }
 h2 {
-	font-size: 40px;
-    color: #dc5e5e
+	font-size: 30px;
 }
 h3 {
 	font-size: 26px;
-    color: #dc5e5e
 }
 h4 {
 	font-size: 22px;
@@ -72,10 +71,10 @@ h5 {
 	font-size: 18px;
 }
 p {
-	font: 14px/1.5em "Libre Baskerville";
+	font: 14px/1.5em "Roboto";
 }
 .navbar-nav > li > a {
-	font-family: 'Libre Baskerville', serif;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 /* End Fonts */
 
@@ -129,7 +128,7 @@ section {
 
 /* ===== Begin text colors ===== */
 .text-main { color: #363940; } /* Theme main color */
-.text-white { color: #dc5e5e; }
+.text-white { color: #FFF; }
 .text-off-white { color: #e7e7e7;}
 .text-dark { color: #000; }
 
@@ -145,8 +144,7 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar .container {
-	padding-bottom: 50px;
-    padding-left: 50px;
+	padding-left: 50px;
 	padding-right: 50px;
 }
 
@@ -170,25 +168,25 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/belissima-logo-text.svg);
-    background-size: contain;
+	background-image: url(../img/logo.png);
 }
 .navbar-shrink .navbar-brand {
-	background-image: url(../img/belissima-logo-text.svg);
+	background-image: url(../img/logo.png);
 }
 .navbar-transparent .navbar-brand {
-	background-image: url(../img/belissima-logo-text.svg);
+	background-image: url(../img/logo.png);
 }
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/belissima-logo-text.svg);
+	background-image: url(../img/logo.png);
 }
 
 /* Navbar links */
 .navbar-nav > li > a {
 	padding: 24px 0;
 	margin-left: 25px;
-	font-size: 15px;
-	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
 }
 
 /* Navbar dropdown */
@@ -269,8 +267,23 @@ section {
 }
 /* ===== End navbar ===== */
 
+
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
+
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
 #text-carousel-intro-section {
 	height: 100%;
 }
@@ -286,16 +299,12 @@ section {
 	margin-top: 0;
 	margin-bottom: 5px;
 	font-size: 60px;
+	text-transform: uppercase;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 #text-carousel-intro-section .caption p {
 	letter-spacing: 2px;
 	font-size: 16px;
-}
-
-.belissima-logo {
-    width: auto;
-    height: 150px;
 }
 /* End text carousel intro */
 /* ===== End intro ===== */
@@ -753,7 +762,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	font-size: 48px;
 }
 .prices .panel-footer {
-	padding: 35px 15px;
+	padding: 25px 15px;
 }
 
 /* panel-default */
@@ -765,31 +774,11 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	background-color: #EEE;
 }
 .prices .panel-default .list-group-item {
-	color: #545456;
+	color: #222;
 	border: none;
-    background-color: #f6f3d4;
 }
 .prices .panel-default .panel-footer {
 	background-color: #EEE;
-}
-
-.price-box .panel {
-	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.21);
-}
-.prices .price-box .price-box-ribbon {
-	position: absolute;
-	width: 150px;
-	top: 25px;
-	right: -35px;
-	text-align: center;
-	padding: 5px 20px;
-	background: #363940;
-	color: #dc5e5e;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
 }
 
 /* price-box-featured */
@@ -897,10 +886,6 @@ ul.contact-address li i {
 }
 /* ===== End contact ===== */
 
-#map {
-    width: 100%; height: 300px; margin-top: 0px; margin-bottom: 0px;
-}
-
 
 /* ===== Begin footer ===== */
 .footer-top {
@@ -978,12 +963,11 @@ ul.imp-links li a {
 	border: none;
 }
 .page-header h2 {
-	
+	text-transform: uppercase;
 }
 p.subtitle {
 	letter-spacing: 2px;
 	margin-top: 10px;
-    color: #a9d6b5;
 }
 /* ===== End page header ===== */
 
