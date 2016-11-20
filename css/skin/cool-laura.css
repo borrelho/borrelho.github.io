@@ -11,10 +11,7 @@ a, a:hover, a:focus {
 	color: #a9d6b5;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: transparent;
-  background-image: url(renda-original.svg);
-  background-repeat: repeat-x;
-  background-size: 28px 105px;
+  background-color: #f6f3d4;
 }
 .navbar-default .navbar-nav > li > a {
 	color: #dc5e5e;
