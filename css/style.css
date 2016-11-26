@@ -66,7 +66,7 @@ h3 {
     color: #dc5e5e
 }
 h4 {
-	font-size: 22px;
+	font-size: 26px;
 }
 h5 {
 	font-size: 18px;
@@ -754,6 +754,9 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	overflow: hidden;
 	border: none;
 }
+.prices h2 {
+	color: #dc5e5e;
+}
 .prices .panel-body .lead {
 	margin: 0;
 	font-size: 48px;
@@ -827,6 +830,9 @@ ul.social-list li a i {
 /* ===== Begin contact ===== */
 #contact-section {
 	position: relative;
+}
+#contact-section h2 {
+	color: #dc5e5e;
 }
 #contact-section h4 {
 	font-weight: 400;

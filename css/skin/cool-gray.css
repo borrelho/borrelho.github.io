@@ -124,7 +124,7 @@ a, a:hover, a:focus {
 
 /* === Rotate Box === */
 .rotate-box-1.square-icon .rotate-box-icon, .rotate-box-2.square-icon .rotate-box-icon {
-	background-color: #363940;
+	background-color: #a9d6b5;
 }
 
 
@@ -246,8 +246,8 @@ a, a:hover, a:focus {
 
 /* === To Top === */
 .scrolltotop {
-	color: #676D75;
-	border: 2px solid #676D75;
+	color: #a9d6b5;
+	border: 2px solid #a9d6b5;
 }
 
 
