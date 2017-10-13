@@ -140,10 +140,20 @@ section {
 
 
 /* Navbar brand (logo) */
+.navbar-header {
+	margin-top: 5px;
+}
 .navbar-brand {
 	font-family: 'Amatic SC', cursive;
 	font-size: 40px;
-	line-height: 40px;
+	float: none;
+	line-height: 1px;
+}
+img.img-brand{
+	display: inline-block;
+	height: 60px;
+	padding-right: 10px;
+	vertical-align: middle;
 }
 
 /* Navbar links */
@@ -164,7 +174,7 @@ section {
 }
 .dropdown-menu {
   width: 100%;
-  background-color: rgba(0, 140, 130, 0.85);
+  background-color: rgba(0, 140, 130, 1);
   text-align: center;
   border: none;
 }
