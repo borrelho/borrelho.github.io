@@ -24,7 +24,7 @@
 
 		<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/mobile.css">
 
 		<!-- Skin CSS -->
@@ -72,14 +72,14 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a class="page-scroll" href="body">Home</a></li>
                             <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Próximas Saidas <i class="fa fa-calendar"></i>
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Próximos Tours &nbsp;                          	  
+                              <i class="fa fa-ship fa-2x animated pulse infinite"></i><p>Sábado 27 Out </p>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>10 Out, Sábado<i class="fa fa-clock-o" aria-hidden="true"></i>10h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span></a></li>
+                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>11 Out, Domingo<i class="fa fa-clock-o" aria-hidden="true"></i>10h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/sun.svg"><span>Arrábida Sunset</span></a></li>
+                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>11 Out, Domingo<i class="fa fa-clock-o" aria-hidden="true"></i>14h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span></a></li>
+                                <li><p>Contacte-nos para mais informações</p><a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>+351 937 882 746</a><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> geral@dolphinbay.pt</a></li>
                               </ul>
                             </li>
                             <li><a class="page-scroll" href="#about-section">About</a></li>
@@ -98,7 +98,17 @@
             <!-- ========= END HEADER =========-->
             
             
-            
+								<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+								<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+								<div class="modal-body">
+								<div class="embed-responsive embed-responsive-16by9">
+								<iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
+								</div>
+								</div>
+								</div>
+								</div>
+								</div>    
             
         	<!-- Begin text carousel intro section -->
 			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5">
@@ -111,18 +121,18 @@
 						<div id="owl-intro-text" class="owl-carousel">
 							<div class="item">
 								<h1>Bem Vindo à <span>Baia dos Golfinhos</span></h1>
-								<p>Let's make the web beautiful together</p>
-                                <div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
+								<p>A mais completa experiência de mar na Baía de Setúbal</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank video" data-video="https://player.vimeo.com/video/148755671?title=0&portrait=0" data-toggle="modal" data-target="#videoModal">Ver o Video</a>
 							</div>
 							<div class="item">
-								<h1>Join with us</h1>
+								<h2>Join with us</h2>
 								<p>To the greatest Journey</p>
 								<div class="extra-space-l"></div>
 								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
 							</div>
 							<div class="item">
-								<h1>I'm Unika</h1>
+								<h2>I'm Unika</h2>
 								<p>One Page Responsive Theme</p>
 								<div class="extra-space-l"></div>
 								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
@@ -130,10 +140,31 @@
 						</div>
 
 					</div> <!-- /.caption -->
+					<!-- MODAL -->
+			<div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+			    <div class="modal-dialog" role="document">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			                    <span aria-hidden="true">&times;</span>
+			                </button>
+			            </div>
+			            <div class="modal-body">
+			                <div class="modal-video">
+			                    <div class="embed-responsive embed-responsive-16by9">
+			                        <iframe src="https://player.vimeo.com/video/148755671?title=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
 				</div> <!-- /.container -->
 
 			</section>
 			<!-- End text carousel intro section -->
+
+			
                 
                 
                 
@@ -144,9 +175,9 @@
                 <div class="page-header-wrapper">
                     <div class="container">
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
-                            <h2>About</h2>
+                            <h3>A Mais Completa Esperiência de Mar</h3>
                             <div class="devider"></div>
-                            <p class="subtitle">little information</p>
+                            <p class="subtitle">escolha o seu</p>
                         </div>
                     </div>
                 </div>
@@ -1077,6 +1108,7 @@
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
+		<script src="js/scripts.js"></script>
 
     </body> 
         
