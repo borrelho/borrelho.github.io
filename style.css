@@ -183,13 +183,14 @@ img.img-brand{
   background-color: rgba(0, 140, 130, 1);
   text-align: center;
   border: none;
-  padding: 30px;
+  padding: 20px 0px;
 }
 .dropdown-menu>li>a {
-	padding: 10px 30px;
+	padding: 10px 0px;
 	font-size: 16px;
 	color: white;
 	display: inline-block;
+	text-align: center;
 }
 .dropdown-menu>li>a>i {
 	vertical-align: baseline;
@@ -199,7 +200,6 @@ img.img-brand{
 .dropdown-menu>li>a>span {
 	font-family: 'Amatic SC', cursive;
 	font-size: 24px;
-	letter-spacing: 1px;
 }
 .dropdown-menu>li>p {
 	font-size: 14px;
