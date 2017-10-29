@@ -23,9 +23,9 @@
 		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
 
 		<!-- Theme CSS -->
-        <link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skin/cool-gray.css">
@@ -45,7 +45,6 @@
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
-        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
     	<div class="body">
         
             <!--========== BEGIN HEADER ==========-->
@@ -76,13 +75,21 @@
                               <i class="fa fa-ship fa-2x animated pulse infinite"></i><p>Sábado 27 Out </p>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>10 Out, Sábado<i class="fa fa-clock-o" aria-hidden="true"></i>10h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span></a></li>
-                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>11 Out, Domingo<i class="fa fa-clock-o" aria-hidden="true"></i>10h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/sun.svg"><span>Arrábida Sunset</span></a></li>
-                                <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>11 Out, Domingo<i class="fa fa-clock-o" aria-hidden="true"></i>14h&nbsp;&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span></a></li>
-                                <li><p>Contacte-nos para mais informações</p><a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>+351 937 882 746</a><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> geral@dolphinbay.pt</a></li>
+                                <li>
+                                	<p><i class="fa fa-calendar"></i>&nbsp;10 Out, Sábado&nbsp;<i class="fa fa-clock-o"></i>&nbsp;10h&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span>
+                                	<a href="#" class="btn btn-blank menu"><i class="fa fa-anchor"></i>&nbsp;Agendar</a></p>
+                                </li>
+                                <li>
+                                	<p><i class="fa fa-calendar"></i>&nbsp;10 Out, Sábado&nbsp;<i class="fa fa-clock-o"></i>&nbsp;10h&nbsp;<img class="sea-icon" src="img/icon/sun.svg"><span>Arrábida Sunset</span>
+                                	<a href="#" class="btn btn-blank menu"><i class="fa fa-anchor"></i>&nbsp;Agendar</a></p>
+                                </li>
+                                <li>
+                                	<p><i class="fa fa-calendar"></i>&nbsp;10 Out, Sábado&nbsp;<i class="fa fa-clock-o"></i>&nbsp;10h&nbsp;<img class="sea-icon" src="img/icon/dolphin.svg"><span>Observação de Golfinhos</span>
+                                	<a href="#" class="btn btn-blank menu"><i class="fa fa-anchor"></i>&nbsp;Agendar</a></p>
+                                </li>
                               </ul>
                             </li>
-                            <li><a class="page-scroll" href="#about-section">About</a></li>
+                            <li><a class="page-scroll" href="#partners-section">About</a></li>
                             <li><a class="page-scroll" href="#services-section">Services</a></li>
                             <li><a class="page-scroll" href="#portfolio-section">Works</a></li>
                             <li><a class="page-scroll" href="#team-section">Team</a></li>                            
@@ -98,76 +105,101 @@
             <!-- ========= END HEADER =========-->
             
             
-								<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-								<div class="modal-dialog modal-lg" role="document">
-								<div class="modal-content">
-								<div class="modal-body">
-								<div class="embed-responsive embed-responsive-16by9">
-								<iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
-								</div>
-								</div>
-								</div>
-								</div>
-								</div>    
-            
-        	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5">
-				<video autoplay loop muted poster="screenshot.jpg" id="background-video">
-    				<source src="img/Dolphins.mp4 " type="video/mp4">
-				</video>
-				<div class="container">
-					<div class="caption text-center text-white" data-stellar-ratio="0.7">
-
-						<div id="owl-intro-text" class="owl-carousel">
-							<div class="item">
-								<h1>Bem Vindo à <span>Baia dos Golfinhos</span></h1>
-								<p>A mais completa experiência de mar na Baía de Setúbal</p>
-								<div class="extra-space-l"></div>
-								<a class="btn btn-blank video" data-video="https://player.vimeo.com/video/148755671?title=0&portrait=0" data-toggle="modal" data-target="#videoModal">Ver o Video</a>
-							</div>
-							<div class="item">
-								<h2>Join with us</h2>
-								<p>To the greatest Journey</p>
-								<div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
-							</div>
-							<div class="item">
-								<h2>I'm Unika</h2>
-								<p>One Page Responsive Theme</p>
-								<div class="extra-space-l"></div>
-								<a class="btn btn-blank" href="https://creativemarket.com/Themetorium" target="_blank" role="button">View More!</a>
-							</div>
-						</div>
-
-					</div> <!-- /.caption -->
-					<!-- MODAL -->
-			<div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
-			    <div class="modal-dialog" role="document">
-			        <div class="modal-content">
-			            <div class="modal-header">
-			                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			                    <span aria-hidden="true">&times;</span>
-			                </button>
-			            </div>
-			            <div class="modal-body">
-			                <div class="modal-video">
-			                    <div class="embed-responsive embed-responsive-16by9">
-			                        <iframe src="https://player.vimeo.com/video/148755671?title=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
+			<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			<div class="modal-body">
+			<div class="embed-responsive embed-responsive-16by9">
+			<iframe width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
 			</div>
-				</div> <!-- /.container -->
-
+			</div>
+			</div>
+			</div>
+			</div>    
+            
+			<!-- Begin text carousel intro section -->
+			<section id="hero-section-text" class="parallax" data-stellar-background-ratio="0.5">
+				
+                <div class="container">
+                    <div class="hero-section">
+                    <video autoplay loop muted id="background-video"><source src="img/Dolphins.mp4 " type="video/mp4"></video>
+                      <div class="hero-section-text">
+                        <img class="logo" src="img/logo.svg" alt="" title="">
+                        <h1>Bem Vindo à <span>Baia dos Golfinhos</span></h1>
+                        <p>A Mais Completa Esperiência de Mar</p>
+                        <div class="extra-space-l"></div>
+                        <a class="btn btn-blank video animated pulse infinite" data-video="https://player.vimeo.com/video/148755671?title=0&portrait=0" data-toggle="modal" data-target="#videoModal">&nbsp;&nbsp;Ver o Video&nbsp;&nbsp;</a>&nbsp;&nbsp;&nbsp;<a class="btn btn-blank video video" href="">Agendar Tour</a>
+                      </div>
+                    </div>
+                </div> <!-- /.container -->
 			</section>
 			<!-- End text carousel intro section -->
 
+
+            <section id="partners-section">
+                <!-- Begin page header-->
+                <div class=servicos>
+                    <div class="container fluid">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Dolphin bay Tours</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">Escolha o Seu</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="flex-container">
+                  <div class="flex-slide home">
+                    <div class="flex-title flex-title-home">Golfinhos</div>
+                    <div class="flex-about flex-about-home">
+                      <p>Click here to navigate to the home section of the website</p>
+                    </div>
+                  </div>
+                  <div class="flex-slide about">
+                    <div class="flex-title">About</div>
+                    <div class="flex-about">
+                      <p>Click here to navigate to the About section of the website</p>
+                    </div>
+                  </div>
+                  <div class="flex-slide work">
+                    <div class="flex-title">Work</div>
+                    <div class="flex-about">
+                      <p>Listing relevant snippets of work:</p>
+                      <ul>
+                        <li>First piece of work</li>
+                        <li>Second piece of work</li>
+                        <li>Third piece of work</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="flex-slide contact">
+                    <div class="flex-title">Contact</div>
+                    <div class="flex-about">
+                      <p>Use the contact form below</p>
+                      <form class="contact-form">
+                        <p>Email
+                          <input type="text" name="email">
+                        </p>
+                        <p>Comment
+                          <textarea type="text" name="comment" row="5"></textarea>
+                        </p>
+                        <p>
+                          <input type="submit" name="email" value="Send Message">
+                        </p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+            </section>
+            <!-- End partners -->
+
 			
-                
-                
-                
                 
             <!-- Begin about section -->
 			<section id="about-section" class="page bg-style1">
@@ -304,9 +336,7 @@
           </section>
           <!-- End about section -->
 
-              
-              
-              
+  
           <!-- Begin cta -->
           <section id="cta-section">
           	<div class="cta">
@@ -1094,7 +1124,7 @@
         
         
         <!-- Plugins JS -->
-		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
+		<script src="inc/jquery/jquery-3.2.1.min.js"></script>
 		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
 		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
 		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
@@ -1105,10 +1135,54 @@
 		<script src="inc/jquery.easing.min.js"></script>
 		<script src="inc/jquery.counterup.min.js"></script>
 		<script src="inc/smoothscroll.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/2.2.0/jquery.waitforimages.min.js"></script> 
 
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
 		<script src="js/scripts.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/2.2.0/jquery.waitforimages.min.js"></script> 
+        <script>
+        (function(){
+                $('.flex-container').waitForImages(function() {
+                    $('.spinner').fadeOut();
+            }, $.noop, true);
+            
+            $(".flex-slide").each(function(){
+                $(this).hover(function(){
+                    $(this).find('.flex-title').css({
+                        transform: 'rotate(0deg)',
+                        top: '10%'
+                    });
+                    $(this).find('.flex-about').css({
+                        opacity: '1'
+                    });
+                }, function(){
+                    $(this).find('.flex-title').css({
+                        transform: 'rotate(90deg)',
+                        top: '15%'
+                    });
+                    $(this).find('.flex-about').css({
+                        opacity: '0'
+                    });
+                })
+            });
+        })();
+        </script>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36251023-1']);
+          _gaq.push(['_setDomainName', 'jqueryscript.net']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
 
     </body> 
         
